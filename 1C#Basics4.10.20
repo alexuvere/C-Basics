@@ -1,0 +1,13 @@
+class Program
+{
+    static void Main(string[] args)
+    {
+       var number = 6;
+      var greeting = "gi";
+      System.Console.WriteLine(number);
+      System.Console.WriteLine(greeting);
+      System.Console.WriteLine(number + 2);
+      number = 10;
+      System.Console.WriteLine(12 - number);
+    }
+}

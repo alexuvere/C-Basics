@@ -1,0 +1,30 @@
+class Program
+{
+    static void Main(string[] args)
+    {
+       var number = 6;
+      var greeting = "gi";
+      System.Console.WriteLine(number);
+      System.Console.WriteLine(greeting);
+      System.Console.WriteLine(number + 2);
+      number = 10;
+      System.Console.WriteLine(12 - number);
+    }
+}
+
+//Mehtods
+
+using System;
+using System.Threading;
+class Program
+{
+    static void Main(string[] args)
+    { //write a welcome message
+      Console.WriteLine("Welcome to the cat food store!");
+      Console.WriteLine("Hello");
+      Thread.Sleep(3000);
+      Console.WriteLine("done sleeping");
+
+      
+    }
+}
